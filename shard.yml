@@ -1,0 +1,9 @@
+name: crystal-json-key-mapper
+version: 0.1.0
+
+authors:
+  - Leon Liu <liu_yang@worksap.co.jp>
+
+crystal: 0.25.1
+
+license: MIT
