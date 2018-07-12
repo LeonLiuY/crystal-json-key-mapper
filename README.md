@@ -1,6 +1,10 @@
 # crystal-json-key-mapper
 
-TODO: Write a description here
+A hack to make `JSON.mapping` by default map crystal underscore names to JSON camelcase names.
+
+## Limitation
+
+All field names in crystal classes should not have uppercase letters. (Only lowercase letters and underscores.)
 
 ## Installation
 
@@ -9,29 +13,19 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   crystal-json-key-mapper:
-    github: your-github-user/crystal-json-key-mapper
+    github: liuyang1204/crystal-json-key-mapper
+    branch: master
 ```
 
 ## Usage
 
+require this at the very beginning of the application.
+
 ```crystal
+require "json"
 require "crystal-json-key-mapper"
 ```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/crystal-json-key-mapper/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Leon Liu - creator, maintainer
+- [liuyang1204](https://github.com/liuyang1204) Leon Liu - creator, maintainer
