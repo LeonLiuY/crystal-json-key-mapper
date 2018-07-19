@@ -2,6 +2,8 @@
 
 A hack to make `JSON.mapping` by default map crystal underscore names to JSON camelcase names.
 
+**Not recommended!**
+
 ## Limitation
 
 All field names in crystal classes should not have uppercase letters. (Only lowercase letters and underscores.)
